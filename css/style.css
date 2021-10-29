@@ -3,18 +3,14 @@ body {
     padding: 0;
 }
 
-.form {
+#form {
     display: flex;
     justify-content: center;
-    height: 100vh;
 }
 
-#firstNameField {
-    height: 2rem;
-    width: 20rem;
-}
-
-#lastNameField {
-    height: 2rem;
-    width: 20rem;
+.container {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3rem;
 }

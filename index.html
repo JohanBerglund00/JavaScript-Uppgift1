@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,19 +10,27 @@
 </head>
 
 <body>
-    <div class="form">
+    <form onsubmit="return validate()" name="form" id="form" action="welcome.html">
         <div class="container">
-            <div id="firstName">
-                <p>First Name:</p>
-                <input id="firstNameField">
+            <div id="firstNameDiv">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName">
             </div>
-            <div id="lastName">
-                <p>Last Name:</p>
-                <input id="lastNameField">
+            <div id="lastNameDiv">
+                <label for="lastName">Last Name:</label>
+                <input name="lastName" id="lastName">
             </div>
+            <div id="emailDiv">
+                <label for="email">E-Mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div id="passwordDiv">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <button type="submit">Submit</button>
         </div>
-    </div>
-
+    </form>
 
 
 
@@ -29,3 +38,5 @@
 </body>
 
 </html>
+
+<!-- action="results.html" method="GET" // Placera brevid "id="form"" -->
