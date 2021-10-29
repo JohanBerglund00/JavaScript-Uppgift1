@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+#firstNameField {
+    height: 2rem;
+    width: 20rem;
+}
+
+#lastNameField {
+    height: 2rem;
+    width: 20rem;
+}
