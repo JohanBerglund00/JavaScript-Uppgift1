@@ -14,3 +14,21 @@ body {
     grid-template-columns: auto;
     row-gap: 3rem;
 }
+
+#firstNameError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#lastNameError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#emailError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}

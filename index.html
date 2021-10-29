@@ -15,20 +15,27 @@
             <div id="firstNameDiv">
                 <label for="firstName">First Name:</label>
                 <input type="text" name="firstName" id="firstName">
+                <label id="firstNameError">Must contain at least 2 characters, excluding spaces</label>
             </div>
+
             <div id="lastNameDiv">
                 <label for="lastName">Last Name:</label>
-                <input name="lastName" id="lastName">
+                <input type="text" name="lastName" id="lastName">
+                <label id="lastNameError">Must contain at least 2 characters, excluding spaces</label>
             </div>
+
             <div id="emailDiv">
                 <label for="email">E-Mail:</label>
                 <input type="email" name="email" id="email">
+                <label id="emailError">Must contain at least 10 characters including "@"</label>
             </div>
+
             <div id="passwordDiv">
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password">
             </div>
-            <button type="submit">Submit</button>
+
+            <button type="submit" id="submitButton">Submit</button>
         </div>
     </form>
 
