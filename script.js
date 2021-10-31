@@ -8,6 +8,7 @@ function validate() {
     const address = document.getElementById('address')
     const postalCode = document.getElementById('postalCode')
 
+
     if (firstName.value.trim().length < 2) {
         document.getElementById('firstNameError').style.visibility="visible";
         firstName.style.border = "solid 2px red";
@@ -34,7 +35,7 @@ function validate() {
         return false;
     }
 
-    else if (dob.value.trim().length < 8 || dob.value.trim().length > 8) { // ANVÄNDAREN MÅSTE VARA 18 ÅR ELLER ÄLDRE!!!
+    else if (dob.value.trim().length < 8 || dob.value.trim().length > 8) {
         document.getElementById('dobError').style.visibility="visible";
         dob.style.border = "solid 2px red";
         return false;
