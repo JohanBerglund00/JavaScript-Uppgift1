@@ -32,3 +32,33 @@ body {
     font-weight: bold;
     visibility: hidden;
 }
+
+#passwordError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#passwordConfirmError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#dobError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#addressError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#postalCodeError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}

@@ -33,6 +33,31 @@
             <div id="passwordDiv">
                 <label for="password">Password:</label>
                 <input type="password" name="password" id="password">
+                <label id="passwordError">Must contain at least 8 characters</label>
+            </div>
+
+            <div id="passwordConfirmDiv">
+                <label for="passwordConfirm">Confirm Password:</label>
+                <input type="password" name="passwordConfirm" id="passwordConfirm">
+                <label id="passwordConfirmError">Does not match password</label>
+            </div>
+
+            <div id="dobDiv">
+                <label for="dob">Date of Birth:</label>
+                <input type="text" name="dob" id="dob" placeholder="YYYYMMDD">
+                <label id="dobError">Must contain 8 characters and be at least 18 years old</label>
+            </div>
+
+            <div id="addressDiv">
+                <label for="address">Address:</label>
+                <input type="text" name="address" id="address">
+                <label id="addressError">Must contain atleast 2 characters</label>
+            </div>
+
+            <div id="postalCodeDiv">
+                <label for="postalCode">Postal Code:</label>
+                <input type="text" name="postalCode" id="postalCode" placeholder="XXXXX">
+                <label id="postalCodeError">Must contain 5 characters</label>
             </div>
 
             <button type="submit" id="submitButton">Submit</button>
