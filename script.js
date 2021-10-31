@@ -40,6 +40,12 @@ function validate() {
         return false;
     }
 
+    else if (age.value.trim() < 18) {
+        document.getElementById('ageError').style.visibility="visible";
+        age.style.border = "solid 2px red";
+        return false;
+    }
+
     else if (address.value.trim().length < 2) {
         document.getElementById('addressError').style.visibility="visible";
         address.style.border=  "solid 2px red"

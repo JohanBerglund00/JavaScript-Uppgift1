@@ -1,11 +1,37 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(206, 208, 212);
 }
 
 #form {
     display: flex;
     justify-content: center;
+}
+
+div {
+    margin-bottom: -2rem;
+}
+
+#submitButton {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    width: 20rem;
+    font-size: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    text-shadow: black;
+    filter: brightness(85%);
+}
+
+#form input {
+    display: flex;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .container {
@@ -58,6 +84,12 @@ body {
 }
 
 #postalCodeError {
+    color: red;
+    font-weight: bold;
+    visibility: hidden;
+}
+
+#ageError {
     color: red;
     font-weight: bold;
     visibility: hidden;
